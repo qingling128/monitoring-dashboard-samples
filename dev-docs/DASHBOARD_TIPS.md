@@ -194,9 +194,9 @@ documentation as well as logs:
 ```
 [How to configure NGINX Monitoring](https://cloud.google.com/monitoring/agent/ops-agent/third-party/nginx)
 
-[View NGINX Access Logs](https://console.cloud.google.com/logs/query?query=logName:%22nginx_default_access%22%0Aresource.type%3D%22gce_instance%22)
+[View NGINX Access Logs](https://console.cloud.google.com/logs/query?query=logName:%22nginx_access%22%0Aresource.type%3D%22gce_instance%22)
 
-[View NGINX Error Logs](https://console.cloud.google.com/logs/query?query=logName:%22nginx_default_error%22%0Aresource.type%3D%22gce_instance%22)
+[View NGINX Error Logs](https://console.cloud.google.com/logs/query?query=logName:%22nginx_error%22%0Aresource.type%3D%22gce_instance%22)
 ```
 
 # Appendix: Useful MQL Macros
